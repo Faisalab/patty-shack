@@ -21,13 +21,11 @@ body {
     text-align: center;
     z-index: 999; }
     .banner .txt h1 {
-      font-size: 5em;
       font-weight: bold;
       color: #fff; }
     .banner .txt h4 {
       justify-self: center;
       z-index: 999;
-      font-size: 3em;
       font-weight: bold;
       color: #fff; }
   .banner .overlay {
@@ -191,6 +189,10 @@ footer {
     grid-template-rows: 60vh; }
     .banner .txt {
       padding: 2em; }
+      .banner .txt h1 {
+        font-size: 5em; }
+      .banner .txt h4 {
+        font-size: 3em; }
     .banner .overlay {
       height: 80%; }
   nav .nav-wrapper {
@@ -213,18 +215,19 @@ footer {
     height: 75vh;
     background: url("https://cdn.pixabay.com/photo/2015/11/06/15/35/beach-1029007_1280.jpg") no-repeat;
     background-position-y: -100px;
-    background-attachment: fixed;
-    background-size: cover;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 40vh;
+    grid-template-rows: 45vh;
     text-align: center; }
     .banner .txt {
       letter-spacing: 3px;
       align-self: flex-end;
       justify-self: center;
-      font-size: 3em;
       color: #fff; }
+      .banner .txt h1 {
+        font-size: 1em; }
+      .banner .txt h4 {
+        font-size: 0.7em; }
     .banner .overlay {
       bottom: 150px; }
   nav .nav-wrapper {
