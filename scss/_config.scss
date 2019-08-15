@@ -1,0 +1,31 @@
+$main-color: #4DB6AC;
+
+@mixin easeIn{
+    transition: all 500ms ease-in;
+    -webkit-transition: -webkit-transform 500ms ease-in;
+
+}
+
+// Media query mixins
+
+@mixin mediaSm {
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin mediaMd {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+@mixin mediaLg {
+    @media screen and (min-width: 769px) and (max-width: 1170px) {
+        @content;
+    }
+}
+@mixin mediaXl {
+    @media screen and (min-width: 1171px) {
+        @content;
+    }
+}
